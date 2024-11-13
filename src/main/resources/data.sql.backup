@@ -1,0 +1,27 @@
+--use bookstore;
+--
+--INSERT INTO customer (username, email, is_major) VALUES
+--('customer1', 'customer1@mail.com', TRUE),
+--('customer2', 'customer2@mail.com', TRUE),
+--('customer3', 'customer3@mail.com', TRUE);
+----('janedoe', 'janedoe@example.com', FALSE),
+----('aliceblue', 'alice@example.com', TRUE),
+----('bobjones', 'bob@example.com', TRUE),
+----('charliebrown', 'charlie@example.com', FALSE),
+----('danielgrey', 'daniel@example.com', TRUE),
+----('emilyrose', 'emily@example.com', TRUE),
+----('frankcastle', 'frank@example.com', FALSE),
+----('georgelucas', 'george@example.com', TRUE),
+----('hannahsmith', 'hannah@example.com', TRUE);
+--
+--INSERT INTO book (price, name, is_in_stock, pages, author_name, publication_date, genre_enum, customer_id) VALUES
+--(19.99, 'The Great Adventure', TRUE, 350, 'Alice Smith', '2021-07-15', 'FICTION', 1),
+--(25.50, 'Mystery of the Night', FALSE, 420, 'John Doe', '2020-03-11', 'MYSTERY', 2),
+--(15.75, 'Science Wonders', TRUE, 180, 'Carl Sagan', '2019-11-23', 'SCIENCE_FICTION', 3),
+--(12.99, 'Fantasy Land', TRUE, 300, 'Sarah Green', '2018-06-12', 'FANTASY', 4),
+--(30.00, 'History of the World', FALSE, 600, 'Mark Brown', '2022-01-19', 'NONFICTION', 5),
+--(20.99, 'Space Odyssey', TRUE, 255, 'Arthur Clarke', '2017-04-07', 'SCIENCE_FICTION', 6),
+--(18.50, 'The Hidden Truth', TRUE, 275, 'Emily White', '2020-10-02', 'MYSTERY', 1),
+--(22.35, 'The Art of Living', TRUE, 150, 'Daniel Blue', '2021-09-14', 'NONFICTION', 3),
+--(17.80, 'Galaxy Travels', FALSE, 310, 'Neil Armstrong', '2019-05-27', 'SCIENCE_FICTION', 2),
+--(14.99, 'The Enchanted Forest', TRUE, 290, 'Fiona Gold', '2018-08-18', 'FANTASY', 4);
